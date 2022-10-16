@@ -32,7 +32,7 @@ app.use(cors());
 //My Routes
 
 app.get("/", (req,res)=>{
-  res.send("Sahi Chal rha h sab")
+  res.send("It is working fine.")
 })
 app.use("/api", authRoutes);
 app.use("/api",userRoutes);
